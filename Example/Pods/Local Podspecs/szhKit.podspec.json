@@ -1,0 +1,22 @@
+{
+  "name": "szhKit",
+  "version": "0.1.0",
+  "summary": "A short description of szhKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/ShangZhehao/szhKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "ShangZhehao": "szh875925905@163.com"
+  },
+  "source": {
+    "git": "https://github.com/ShangZhehao/szhKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "szhKit/Classes/**/*"
+}

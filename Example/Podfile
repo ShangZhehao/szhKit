@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'szhKit_Example' do
+  pod 'szhKit', :path => '../'
+
+  target 'szhKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

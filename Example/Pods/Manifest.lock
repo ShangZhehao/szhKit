@@ -1,0 +1,16 @@
+PODS:
+  - szhKit (0.1.0)
+
+DEPENDENCIES:
+  - szhKit (from `../`)
+
+EXTERNAL SOURCES:
+  szhKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  szhKit: 7db5baacc077a545ed121ab7e6e77bce15fc70e0
+
+PODFILE CHECKSUM: eeff389cb1c0668068fca2a72c3dcc27295d93e7
+
+COCOAPODS: 1.6.0

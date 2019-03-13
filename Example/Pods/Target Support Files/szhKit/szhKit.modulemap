@@ -1,0 +1,6 @@
+framework module szhKit {
+  umbrella header "szhKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
