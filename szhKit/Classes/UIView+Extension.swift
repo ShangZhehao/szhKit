@@ -61,4 +61,17 @@ extension UIView {
         }
     }
     
+    public var borderColor:CGColor {
+        get {
+            return self.layer.borderColor!
+        }
+        set(newColor) {
+            self.layer.borderColor=newColor
+        }
+    }
+    
+   public func circleRadius() {
+        self.cornerRadius=self.height/2;
+    }
+    
 }

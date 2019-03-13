@@ -7,14 +7,19 @@
 //
 
 import UIKit
+import szhKit
 
 class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        var view = UIView()
+        let test = UIView(frame: CGRect(x: 100, y: 100, width: 100, height: 100))
         
+        test.cornerRadius=5
+        test.backgroundColor=UIColor.red
+        view.addSubview(test)
+
         // Do any additional setup after loading the view, typically from a nib.
     }
 
