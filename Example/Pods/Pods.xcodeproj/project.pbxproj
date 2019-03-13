@@ -12,7 +12,7 @@
 		0AE3C8F62F989AE50DCACB3D943E48DA /* Pods-szhKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A52903AB4CF61B9D5AC43CB3AB919DE /* Pods-szhKit_Example-dummy.m */; };
 		0FC7AB5632A485A900C4546D8E2A956D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
 		259650E952AEF6D772A270C3BD97439D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
-		2D4A4F93223937E5003BC257 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4A4F92223937E5003BC257 /* UIView+Extension.swift */; };
+		2D4A4F9522393B52003BC257 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D4A4F9422393B52003BC257 /* UIView+Extension.swift */; };
 		478FC15FF7A1A201D9773A3E57BCA523 /* szhKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 34D77FAF51059AE0778D05B9897CE1E8 /* szhKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4A89DD25AC403D8BEDE95D78793FC0CB /* Pods-szhKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ADA7EBF3C249CA0536BD39E3FE6E0542 /* Pods-szhKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		608CDECC0B5AC5BCFE1845BD990CE9DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CB4607EFCA7C5F75397649E792E2AFCB /* Foundation.framework */; };
@@ -42,7 +42,7 @@
 		1AECB6E124F8FD709600D635CBDE8288 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		2300A2B798483AAE596675EBD6306281 /* szhKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "szhKit-dummy.m"; sourceTree = "<group>"; };
 		2C7A81DDEA8212606D5358E1BB657ED2 /* Pods-szhKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-szhKit_Tests.modulemap"; sourceTree = "<group>"; };
-		2D4A4F92223937E5003BC257 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		2D4A4F9422393B52003BC257 /* UIView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
 		3384D079CE792D148084D3AB0F38CBB7 /* szhKit.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = szhKit.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		34D77FAF51059AE0778D05B9897CE1E8 /* szhKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "szhKit-umbrella.h"; sourceTree = "<group>"; };
 		3C9D4E31C1A13282D23A640B1F25AA62 /* Pods-szhKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-szhKit_Example.modulemap"; sourceTree = "<group>"; };
@@ -201,7 +201,7 @@
 		D54598EC1B8405719926137366547F3E /* szhKit */ = {
 			isa = PBXGroup;
 			children = (
-				2D4A4F92223937E5003BC257 /* UIView+Extension.swift */,
+				2D4A4F9422393B52003BC257 /* UIView+Extension.swift */,
 				EC04F14691733F1B51699F5FA31B6FED /* ReplaceMe.swift */,
 				148C188FBCD1C5348E4EF87672977BC2 /* Pod */,
 				EE08287E3A04BCF9BA1AC6AEE16897BC /* Support Files */,
@@ -389,7 +389,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2D4A4F93223937E5003BC257 /* UIView+Extension.swift in Sources */,
+				2D4A4F9522393B52003BC257 /* UIView+Extension.swift in Sources */,
 				0AE3C8F62F989AE50DCACB3D943E48DA /* Pods-szhKit_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -412,6 +412,69 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		1BA20A1B51D904762C3990EAEEA39D13 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F96289CA8403A78A2AF1411AA771C60E /* szhKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/szhKit/szhKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/szhKit/szhKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/szhKit/szhKit.modulemap";
+				PRODUCT_MODULE_NAME = szhKit;
+				PRODUCT_NAME = szhKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		73C061F06ED1EBA9529B45C549539522 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F96289CA8403A78A2AF1411AA771C60E /* szhKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/szhKit/szhKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/szhKit/szhKit-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/szhKit/szhKit.modulemap";
+				PRODUCT_MODULE_NAME = szhKit;
+				PRODUCT_NAME = szhKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		AA3196D2F3A3E079C4A55DEDAC5CD5CD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C5A5EB88823C180EE2AE4C40756B829B /* Pods-szhKit_Example.debug.xcconfig */;
@@ -548,37 +611,6 @@
 			};
 			name = Release;
 		};
-		D15749C74A69CE6876526470CD01A131 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F96289CA8403A78A2AF1411AA771C60E /* szhKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/szhKit/szhKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/szhKit/szhKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/szhKit/szhKit.modulemap";
-				PRODUCT_MODULE_NAME = szhKit;
-				PRODUCT_NAME = szhKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		D4E7CC4D6970C5974AC02F09ABFC34A8 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5725CBD4E3B67F94994EDFBFD4D27A6D /* Pods-szhKit_Tests.release.xcconfig */;
@@ -705,38 +737,6 @@
 			};
 			name = Debug;
 		};
-		F90D73C922B521A58D8E9C791BDC87C7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = F96289CA8403A78A2AF1411AA771C60E /* szhKit.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/szhKit/szhKit-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/szhKit/szhKit-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/szhKit/szhKit.modulemap";
-				PRODUCT_MODULE_NAME = szhKit;
-				PRODUCT_NAME = szhKit;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -770,8 +770,8 @@
 		80392F332D3897AD03B7915138DE1260 /* Build configuration list for PBXNativeTarget "szhKit" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D15749C74A69CE6876526470CD01A131 /* Debug */,
-				F90D73C922B521A58D8E9C791BDC87C7 /* Release */,
+				73C061F06ED1EBA9529B45C549539522 /* Debug */,
+				1BA20A1B51D904762C3990EAEEA39D13 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,5 +1,5 @@
 PODS:
-  - szhKit (0.1.0)
+  - szhKit (0.2.0)
 
 DEPENDENCIES:
   - szhKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  szhKit: 7db5baacc077a545ed121ab7e6e77bce15fc70e0
+  szhKit: 74f18b4e661f1b2c00a16b67da424b93cfa6fbe7
 
 PODFILE CHECKSUM: eeff389cb1c0668068fca2a72c3dcc27295d93e7
 
