@@ -14,4 +14,6 @@ Pod::Spec.new do |s|
   s.source_files  = "szhKit/Classes/**/*"
   s.frameworks  = "Foundation"
   s.swift_version = "4.2"
+  # s.dependency 'AFNetworking', '~> 2.3' #依赖关系，该项目所依赖的其他库，如果有多个需要填写多个s.dependency
+  s.dependency 'SnapKit', '~> 4.0.0'
 end

@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import szhKit
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -14,8 +15,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     var window: UIWindow?
 
 
-    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+       let testtab = TestTabbarController()
+       self.window = UIWindow(frame: UIScreen.main.bounds)
+       self.window?.makeKeyAndVisible()
+    
+        self.window?.rootViewController=testtab
+        
+        isIphoneX()
+            
+        
         return true
     }
 

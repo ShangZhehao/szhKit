@@ -7,6 +7,12 @@
 
 extension UIView {
     
+    public var screenWidth:CGFloat {
+        get {
+            return UIScreen.main.bounds.size.width
+        }
+    }
+    
     public var height:CGFloat {
         get {
             return self.bounds.size.width
