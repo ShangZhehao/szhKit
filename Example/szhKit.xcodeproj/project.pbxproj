@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		2D936C82223FC8F8006BDE51 /* TestTabbarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D936C81223FC8F8006BDE51 /* TestTabbarController.swift */; };
-		2DEECF02224BAAB700BCCC7C /* UITestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEECF01224BAAB700BCCC7C /* UITestViewController.swift */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -32,7 +31,6 @@
 /* Begin PBXFileReference section */
 		02909AF99DA1ACFA61887E68 /* Pods-szhKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-szhKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-szhKit_Example/Pods-szhKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		2D936C81223FC8F8006BDE51 /* TestTabbarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestTabbarController.swift; sourceTree = "<group>"; };
-		2DEECF01224BAAB700BCCC7C /* UITestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITestViewController.swift; sourceTree = "<group>"; };
 		37B4B8A5DCCE2FF79BB79B5F /* Pods_szhKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_szhKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* szhKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = szhKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -115,7 +113,6 @@
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
 				2D936C81223FC8F8006BDE51 /* TestTabbarController.swift */,
-				2DEECF01224BAAB700BCCC7C /* UITestViewController.swift */,
 			);
 			name = "Example for szhKit";
 			path = szhKit;
@@ -349,7 +346,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DEECF02224BAAB700BCCC7C /* UITestViewController.swift in Sources */,
 				2D936C82223FC8F8006BDE51 /* TestTabbarController.swift in Sources */,
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,

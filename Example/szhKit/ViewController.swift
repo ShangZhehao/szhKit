@@ -24,7 +24,7 @@ class ViewController: UIViewController {
         view.addSubview(test)
         let test2 = UIDevice()
         
-        API.loadDataTest(API)
+//        API.loadDataTest(API)
         
         _ = UILabel(title: "test", frame: CGRect(x: 100, y: 200, width: 100, height: 100), parentView: view)
         
